@@ -36,10 +36,10 @@ p{
 }
 @keyframes random{
   0%{
-    top: 98%; left: 2%;
+    top: 95%; left: 2%;
   }
   5%{
-    top: 96%; left: 2%; transform: rotate(40deg);
+    top: 95%; left: 2%; transform: rotate(40deg);
   }
   15%{
     top: 90%; left: 20%;
@@ -48,13 +48,13 @@ p{
     top: 80%; left: 60%; transform: rotate(10deg);
   }
   45%{
-    top: 70%; left: 70%; transform: rotate(-30deg);
+    top: 70%; left: 70%; transform: rotate(-40deg);
   }
   55%{
     top: 60%; left: 65%;
   }
   70%{
-    top: 50%; left: 50%;
+    top: 50%; left: 50%; transform: rotate(-60deg);
   }
   80%{
     top: 40%; left: 40%;
