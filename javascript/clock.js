@@ -63,7 +63,7 @@ function setCurrentTime(){
 	   document.getElementById('season').innerHTML = weer;   
 	}
 
-	if (hours > 19 || hours < 6){
+	if (hours >= 19 || hours < 6){
 	  // als de tijd na 19.00 uur is of voor 6.00 uur, dan class nacht
 	  document.body.className =  'night';}
 	else{
